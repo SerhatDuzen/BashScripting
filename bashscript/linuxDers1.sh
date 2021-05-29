@@ -1,0 +1,38 @@
+#! /bin/bash
+#absolute path ile script calisabilir ancak
+#relative path de ./ ile yazilir
+
+#eger dosyamizi /bin klasoru altina kopyalarsak her yerden cagrilabilir
+
+
+#Sistem degiskenleri
+#BASH   echo $BASH
+# SYSTEM ARIABLES BUYUK HARFLARLE YAZILIR
+# $SHELL = /BIN/BASH
+# $BASH_VERSION = BASH VERSIYONU
+# $HOSTNAME = BILGISAYAR ADI
+# $HOME = KULLANICINI HOME DIZININI VERIR
+# $PWD = HANGI DIZNDE CALISILDIGI BILGISI
+# $USER = KULLANICININ BILGISI
+# $LANG = BILGISAYARIN DILINI VE KARAKTER KODLAMASINI VERIR
+# $TERM = TERMINALDEKI RENK SECENEKLERI
+# $OSTYPE = ISLETIM SISTEMI BILGISI
+# $PATH = CALISACAK UYGULAMALAR
+# printenv ile tum variable lar goruntulenebilir
+
+#User variables
+# MevcutDosyaYolu='$PWD'
+# VARIABLELERIN ILK KARAKTERELRI RAKAM OLAMAZ
+# VARIABLE LARDA IKI KELIMEYI AYIRMAK ICIN BOSLUK NOKTA OZEL
+# KARAKTERLER KULLANILAMAZ/ SADECE _ KULLANILIR
+# MEVCUT_DOSYA_YOLU=$HOME
+YAS=34  # INTEGER VERI DE ALINABILIR
+#  
+echo $YAS
+
+
+
+#date >> /home/blackred/Desktop/time333.txt
+
+
+
