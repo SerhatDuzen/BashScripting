@@ -21,5 +21,3 @@ echo Gecersiz secim
 
 esac #kapatmak icin
 
-
-
